@@ -1,0 +1,6 @@
+2026-11-25 / cloud deployment candidate
+PASS: node syntax checks for questions.js, report.js, cloud.js, inline index JS, edge-function.ts.
+PASS: Chromium in-memory UI; Web Audio simulated input recorded with MediaRecorder; actual PDF rendered 2 pages; mock fetch endpoints; admin/member UI.
+PASS: Node edge handler with mocked database/storage; auth, consent, role, upload, audio-first eviction, PDF fallback, delete-failure fail closed.
+NOT RUN: real PostgreSQL SQL/RLS, race tests against real database, actual Supabase/Cloudflare deployment, physical mic and mobile compatibility.
+Browser localhost navigation was blocked in execution environment, so in-memory Chromium test was used. No actual public URL created.
